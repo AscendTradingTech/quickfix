@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.0 FATAL_ERROR)
+cmake_minimum_required(VERSION 3.0...3.14 FATAL_ERROR)
 
 set (quickfix_PROJECT_NAME quickfix)
 
