@@ -49,6 +49,7 @@ namespace FIX50SP2
     FIELD_SET(*this, FIX::SecurityIDSource);
     FIELD_SET(*this, FIX::NoSecurityAltID);
     FIELD_SET(*this, FIX::RptSeq);
+    FIELD_SET(*this, FIX::LastFragment);
     class NoSecurityAltID: public FIX::Group
     {
     public:
