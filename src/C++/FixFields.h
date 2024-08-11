@@ -150,7 +150,7 @@ namespace FIX
   DEFINE_QTY(AllocShares);
   DEFINE_CHAR(ProcessCode);
   DEFINE_INT(NoRpts);
-  DEFINE_INT(RptSeq);
+  DEFINE_INT64(RptSeq);
   DEFINE_QTY(CxlQty);
   DEFINE_NUMINGROUP(NoDlvyInst);
   DEFINE_STRING(DlvyInst);
